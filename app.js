@@ -14,7 +14,7 @@ app.use(express.static("public"));
 // bac57e2f07.
 
 app.get("/", function (req, res) {
-  res.sendFile(__dirname + "/signUp.html");
+  res.sendFile(__dirname + "/index.html");
 });
 
 app.use(bodyParser.urlencoded({ extended: true }));
